@@ -1,0 +1,28 @@
+{
+  "name": "hash-all-modules-plugin",
+  "version": "0.1.0",
+  "description": "Hashs all remaining modules that do not get hashed via HashedModuleIdsPlugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfdgithub/hash-all-modules-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "hash",
+    "all",
+    "modules",
+    "plugin"
+  ],
+  "author": "pfdnpm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfdgithub/hash-all-modules-plugin/issues"
+  },
+  "homepage": "https://github.com/pfdgithub/hash-all-modules-plugin",
+  "dependencies": {},
+  "devDependencies": {}
+}
