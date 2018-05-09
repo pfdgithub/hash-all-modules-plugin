@@ -1,6 +1,6 @@
 {
   "name": "hash-all-modules-plugin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Hashs all remaining modules that do not get hashed via HashedModuleIdsPlugin",
   "main": "index.js",
   "scripts": {

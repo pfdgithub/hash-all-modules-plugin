@@ -3,7 +3,7 @@ var PLUGIN_NAME = 'HashAllModulesPlugin';
 
 function HashAllModulesPlugin(options) {
   this.options = Object.assign({
-    hashFunction: "md5",
+    hashFunction: "md4",
     hashDigest: "base64",
     hashDigestLength: 4
   }, options);
@@ -22,7 +22,7 @@ HashAllModulesPlugin.prototype.apply = function (compiler) {
     });
   }
   else {
-    compiler.plugin("compilation", (compilation) => {
+    compiler.plugin("compilation", function (compilation) {
       const usedIds = new Set();
       compilation.plugin("before-module-ids", function (modules) {
         self.hash(usedIds, modules);
